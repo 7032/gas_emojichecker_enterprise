@@ -169,7 +169,7 @@ function  _showMonthlyRanking() {
     }
     strMsg  +=  "\n";
   }
-  Slack.sendMessageToSlack(
+  SlackEmojiChecker.sendMessageToSlack(
     "incoming-webhook-url",
     strMsg
   )
